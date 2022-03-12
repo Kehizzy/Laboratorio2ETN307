@@ -109,12 +109,9 @@ int main ()
 				            mA=0.5*sqrt(2*(pow(b,2)+pow(c,2))-pow(a,2));
 				            mB=0.5*sqrt(2*(pow(a,2)+pow(c,2))-pow(b,2));
 			                mC=0.5*sqrt(2*(pow(a,2)+pow(b,2))-pow(c,2));
-			                alfag=alfa*180/pi;
-			                betag=beta*180/pi;
-			                gammag=gamma*180/pi;
 			                cout<<"Las variables completas son:"<<endl;
 			                cout<<"Lado a:"<<a<<"         Lado b:"<<b<<"            Lado c:"<<c<<endl;
-			                cout<<"Alfa:"<<alfa<<"="<<alfag<<"      Beta: "<<beta<<"="<<betag<<"   Gamma: "<<gamma<<"="<<gammag<<endl;
+			                cout<<"Alfa:"<<alfa<<"      Beta: "<<beta<<   "Gamma: "<<gamma<<endl;
 			                cout<<"mA: "<<mA<<"         mB: "<<mB<<"            mC: "<<mC<<endl;
 			                cout<<"Area: "<<area<<"       Superficie: "<<sup<<endl;				
 			}
